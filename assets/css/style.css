@@ -1,0 +1,78 @@
+header {
+    height: 160px;
+    border-bottom: 1px solid lightgray;
+    z-index: 2;
+}
+
+nav h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav input {
+    border-radius: 12px;
+    padding: 10px;
+    height: 45px;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    height: 45px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+main {
+    margin-top: 160px;
+    min-height: calc(100vh - 160px);
+}
+
+main>section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#random-anime-bar>div {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+
+#random-anime-bar>div>h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: purple;
+}
+
+.random-anime-card {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.random-anime-card img {
+    max-width: 100%;
+    height: 380px;
+}
+
+@media (min-width: 576px) {
+    header {
+        height: 80px;
+    }
+
+    main {
+        margin-top: 80px;
+        min-height: calc(100vh - 80px);
+    }
+}

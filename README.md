@@ -1,0 +1,1 @@
+Exercize Javascript for my school using API https://jikan.moe/
